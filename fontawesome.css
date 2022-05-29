@@ -1,0 +1,83 @@
+.icon-horizontal {
+  display: inline;
+  padding-right: 30px;
+}
+.header-name {
+  font-size: 100px;
+}
+.header-sub {
+  font-size: 80px;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: rgb(145, 139, 139);
+}
+.about-title {
+  font-size: 50px;
+}
+.intro-about {
+  font-size: 20px;
+  font-weight: 500;
+}
+@media screen and (max-width: 510px) {
+  .header-name {
+    font-size: 17.5vw;
+    padding-bottom: 30px;
+  }
+  .header-sub {
+    font-size: 14vw;
+
+    padding-top: 20px;
+  }
+  .icon-horizontal {
+    font-size: 4vw;
+  }
+
+  .profile-pic {
+    height: 40vw;
+    width: 40vw;
+  }
+  .about-title {
+    font-size: 10vw;
+  }
+  .intro-about {
+    font-size: 4vw;
+  }
+  #name {
+    padding-top: 150px;
+  }
+  .social {
+    padding-bottom: 200px;
+  }
+  .entire-row {
+    padding: 10vw 20vw 10vw 20vw;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+
+.fit {
+  color: white;
+}
+.fit-detail {
+  color: #838c95;
+}
+.head {
+  color: white;
+}
+
+.skill {
+  color: white;
+}
+.resume-hr {
+  color: #838c95;
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}

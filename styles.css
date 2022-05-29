@@ -1,0 +1,196 @@
+html,
+body {
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#custom-nav {
+  background-color: black;
+  font-weight: bolder;
+}
+.navbar-brand {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 3px;
+}
+
+/* HEADER SECTION: */
+
+.home {
+  background-image: url("image/cover (7).jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#name {
+  padding-top: 250px;
+  text-align: center;
+}
+hr {
+  width: 50%;
+  margin: auto;
+}
+
+.social {
+  padding-top: 10px;
+  padding-bottom: 250px;
+}
+.header-name {
+  padding-bottom: 5px;
+}
+.header-sub {
+  padding-top: 10px;
+}
+
+/* ABOUT SECTION: */
+.about {
+  background-image: url("image/cover.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -100px;
+}
+.profile-pic {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  position: relative;
+}
+
+.entire-row {
+  padding: 200px 100px 200px 100px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.img-column {
+  text-align: right;
+}
+
+@media (max-width: 1028px) {
+  .profile-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+  }
+
+  .img-column {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  .about-title {
+    text-align: center;
+  }
+  .intro-about {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1378px) {
+  .img-column {
+    padding-top: 30px;
+  }
+  .intro-about {
+    text-align: center;
+  }
+}
+/* RESUME SECTION */
+.resume {
+  padding: 200px 0px 200px 0px;
+  background-color: black;
+}
+
+.fit {
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+  text-decoration-color: #11abb0;
+  text-underline-offset: 0.5em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.skill {
+  margin: 0 3px 0 3px;
+  text-align: center;
+  background-color: black;
+}
+.fit-detail {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* PROJECT SECTION */
+.project {
+  padding: 200px 0px 200px 0px;
+  background-image: url("image/cover (1).jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.project-head {
+  text-align: center;
+  color: white;
+}
+.project1-col {
+  text-align: center;
+}
+.card {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.card-header {
+  color: white;
+}
+.card-title {
+  color: white;
+}
+.card-text {
+  color: #838c95;
+}
+.inner {
+  overflow: hidden;
+}
+
+.inner img {
+  transition: all 1.5s ease;
+}
+.inner:hover img {
+  transform: scale(1.5);
+}
+.cover-project {
+  background-position: center;
+}
+
+.project-edit {
+  text-decoration: none;
+}
+/* CONTACT SECTION */
+
+/* FOOTER SECTION */
+.footer-section {
+  padding: 50px 0px 50px 0px;
+
+  background-color: #212529;
+}
+.footer-content {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
